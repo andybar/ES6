@@ -73,10 +73,6 @@ namespace ExpertSystem
                         }
                         else if (IsFact(antecedent, unproved_conditions)) //deduce to be a fact
                         {
-                            string facts = string.Empty;
-                            foreach (var fact in m_wm._facts)
-                                facts += $" {fact}";
-                            JustificationSingleton.WriteLine($"{facts}->{antecedent}\n\n");
                             m_wm.AddFact(antecedent);
                         }
                         else //deduce to not be a fact
@@ -90,10 +86,6 @@ namespace ExpertSystem
                 if (goal_reached)
                 {
                     conclusion = rule.getConsequent();
-                    string facts = string.Empty;
-                    foreach (var fact in m_wm._facts)
-                        facts += $" {fact}";
-                    JustificationSingleton.WriteLine($"{facts}->{conclusion}\n");
                     break;
                 }
             }

@@ -174,6 +174,7 @@ namespace WFA
             expert.Start();
             readyEvent.WaitOne();
             SetForm();
+            
         }
 
         private void Form_Load(object sender, EventArgs e)
@@ -189,6 +190,17 @@ namespace WFA
         private void buttonReload_Click(object sender, EventArgs e)
         {
             StartGame();
+            JustificationSingleton.Clear();
+        }
+
+        private void JustificationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void JustificationToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show(JustificationSingleton.justificationBuffer);
         }
     }
 }

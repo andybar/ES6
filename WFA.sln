@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26724.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA", "WFA\WFA.csproj", "{88733285-5A03-4444-9B29-B4A10A582459}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs-expert-system-shell-tests", "cs-expert-system-shell-tests\cs-expert-system-shell-tests.csproj", "{13353918-C857-4F1F-AA40-BDF69C8FCF14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{88733285-5A03-4444-9B29-B4A10A582459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88733285-5A03-4444-9B29-B4A10A582459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88733285-5A03-4444-9B29-B4A10A582459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13353918-C857-4F1F-AA40-BDF69C8FCF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13353918-C857-4F1F-AA40-BDF69C8FCF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13353918-C857-4F1F-AA40-BDF69C8FCF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13353918-C857-4F1F-AA40-BDF69C8FCF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0198BC52-73C4-48E2-961D-AC36F6A7B79D}
 	EndGlobalSection
 EndGlobal

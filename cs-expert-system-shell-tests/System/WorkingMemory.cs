@@ -7,7 +7,7 @@ namespace ExpertSystem
 {
     public class WorkingMemory
     {
-        public List<Clause> _facts = new List<Clause>();
+        protected List<Clause> _facts = new List<Clause>();
 
         public WorkingMemory()
         {

@@ -59,6 +59,7 @@
     <Compile Include="System\GreaterClause.cs" />
     <Compile Include="System\IntersectionType.cs" />
     <Compile Include="System\IsClause.cs" />
+    <Compile Include="System\JustificationSingleton.cs" />
     <Compile Include="System\LEClause.cs" />
     <Compile Include="System\LessClause.cs" />
     <Compile Include="System\Rule.cs" />
